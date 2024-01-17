@@ -5,3 +5,5 @@
 ## 22 Header, SideBar, Breadcrumbs y Contenedor Principal
 
 ## 24 Implementando Rutas principales
+
+## 38 Rutas Hijas ForChild()
