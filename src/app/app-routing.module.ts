@@ -7,10 +7,8 @@ import { AuthRoutingModule } from './auth/auth-routing.module';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
 const routes: Routes = [
-  {
-      path:'**',
-      component: NopagefoundComponent
-  }
+  { path:'', redirectTo:'/dashboard', pathMatch:'full'},
+  { path:'**', component: NopagefoundComponent },
 ];
 
 @NgModule({
