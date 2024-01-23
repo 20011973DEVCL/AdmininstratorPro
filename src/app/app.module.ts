@@ -7,6 +7,7 @@ import { PagesModule } from './pages/pages.module';
 
 import { AppComponent } from './app.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
     AppRoutingModule,
     AuthModule,
     PagesModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

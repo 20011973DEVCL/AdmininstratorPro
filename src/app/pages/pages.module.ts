@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from '../app-routing.module';
 import { SharedModule } from '../shared/shared.module';
@@ -14,20 +15,21 @@ import { ProgressComponent } from './progress/progress.component';
 @NgModule({
   declarations: [
     DashboardComponent,
-    ProgressComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    ProgressComponent,
   ],
   exports:[
     DashboardComponent,
-    ProgressComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    ProgressComponent,
   ],
   imports: [
+    AppRoutingModule,
     CommonModule,
+    FormsModule,
     SharedModule,
-    AppRoutingModule
   ]
 })
 export class PagesModule { }
