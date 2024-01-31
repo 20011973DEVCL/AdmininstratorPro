@@ -11,7 +11,7 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { ProgressComponent } from './progress/progress.component';
 
-import { NgChartsModule } from 'ng2-charts';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +32,7 @@ import { NgChartsModule } from 'ng2-charts';
     ComponentsModule,
     FormsModule,
     SharedModule,
-    NgChartsModule
+
   ]
 })
 export class PagesModule { }
