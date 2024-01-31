@@ -2,19 +2,15 @@ import { Component, Input } from '@angular/core';
 import { ChartData, ChartType } from 'chart.js';
 
 @Component({
-  selector: 'app-donna',
-  templateUrl: './donna.component.html',
-  styleUrl: './donna.component.css'
+  selector: 'app-dona',
+  templateUrl: './dona.component.html',
+  styleUrl: './dona.component.css'
 })
-export class DonnaComponent{
+export class DonaComponent{
 
 
-  @Input() Titulo: string='Sin Titulo';
-  @Input('labels') doughnutChartLabels: string[] = [
-    'Label 1',
-    'Label 2',
-    'Label 3',
-  ];
+  @Input() title: string='Sin Titulo';
+  @Input('labels') doughnutChartLabels: string[] = ['Label 1','Label 2','Label 3' ];
 
   public doughnutChartData: ChartData<'doughnut'> = {
     labels: this.doughnutChartLabels,

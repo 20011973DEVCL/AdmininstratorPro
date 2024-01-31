@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-import { DonnaComponent } from './donna/donna.component';
+import { DonaComponent } from './dona/dona.component';
 import { IncrementadorComponent } from './incrementador/incrementador.component';
 
 import { NgChartsModule } from 'ng2-charts';
@@ -11,11 +11,11 @@ import { NgChartsModule } from 'ng2-charts';
 @NgModule({
   declarations: [
     IncrementadorComponent,
-    DonnaComponent
+    DonaComponent
   ],
   exports:[
     IncrementadorComponent,
-    DonnaComponent
+    DonaComponent
   ],
   imports: [
     CommonModule,
